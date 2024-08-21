@@ -1,0 +1,256 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    height: 90px;
+    width: 100%;
+    padding: 40px;
+    padding-inline: 60px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(187, 183, 183);
+}
+.left{
+    height: auto;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.middle ul{
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+    /* background-color: lightblue; */
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.right{
+    height: auto;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 12px;
+}
+.right button{
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(76, 76, 219);
+    color: white;
+    font-size: 12px;
+}
+.right button:hover{
+    background-color: rgb(130, 130, 231);
+}
+.text-section{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+}
+.text{
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    padding-inline: 100px;
+    line-height: 1.5;
+    flex-wrap: wrap;
+}
+em{
+    color: rgb(76, 76, 219);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+}
+
+.text h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+.text p{
+    font-size: 15px;
+    margin-top: 4px;
+    letter-spacing: 1.5px;
+}
+.text button{
+    height: 35px;
+    width: 290px;
+    margin-top: 28px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(76, 76, 219);
+    color: white;
+    margin-right: 190px;
+}
+
+.text button:hover{
+    background-color: rgb(130, 130, 231);
+}
+
+.image{
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* border: 2px solid red; */
+}
+.third-section{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: grey;
+    padding-block: 15px;
+}
+
+.boxes{
+    height: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.last{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 25px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 1.2;
+}
+.last-section{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 15px;
+}
+
+.last-section .last1{
+    height: auto;
+    width: 280px;
+    line-height: 1.2;
+}
+.last1 p{
+    margin-top: 10px;
+}
+@media (max-width:768px) {
+
+    .main-container{
+        height: 100vh;
+        width: 100%;
+    }
+    .navbar{
+        height: 70px;
+        width: 100%;
+        padding-inline: 15px;
+    }
+    .left{
+        height: auto;
+        width: 10%;
+        font-size: 10px;
+    }
+    .middle{
+        height: auto;
+        width: 70%;
+    }
+    a{
+        font-size: 10px;
+    }
+    .right{
+        height: auto;
+        width: 20%;
+        padding-top: 5px;
+    }
+    .right button{
+        height: 20px;
+        width: 100px;
+        border: none;
+        border-radius: 15px;
+        background-color: rgb(76, 76, 219);
+        color: white;
+        font-size: 8px;
+    }
+    .text-section{
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+    .text{
+        height: auto;
+        width: 50%;
+        padding-inline: 10px;
+    }
+
+    .text button{
+        margin-top: 28px;
+        margin-right: 20px;
+    }
+    .image{
+        height: auto;
+        width: 50%;
+    }
+    .image img{
+        width: 100%;
+    }
+    .third-section{
+        margin-top: 10px;
+    }
+    .last{
+        height: auto;
+        width: 100%;
+        padding-inline: 10px;
+    }
+    .last p br{
+        display: none;
+    }
+
+    .last1{
+        width:250px ;
+    }
+
+
+}
+
